@@ -11,9 +11,9 @@ export const authProvider = {
       };
       localStorage.setItem("user", JSON.stringify(user));
       callback(user);
-
+      // console.log(user)
       console.log(response);
-    } catch (error) {}
+    } catch (error) { }
   },
   signout: (callback) => {
     localStorage.removeItem("user");

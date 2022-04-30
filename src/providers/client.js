@@ -8,7 +8,7 @@ const instance = axios.create({
 
 instance.interceptors.request.use((config) => {
   const user = localStorage.getItem("user");
-
+  // console.log(user)
   return {
     ...config,
     headers: {
