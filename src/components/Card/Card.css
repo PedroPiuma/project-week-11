@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(236, 168, 108);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  gap: 15px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
