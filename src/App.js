@@ -1,4 +1,3 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import PublicPage from "./routes/PublicPage";
 import Layout from "./components/Layout/Layout";
