@@ -9,7 +9,7 @@ const Card = (props) => {
     return (
         <div className={`card ${hidden}`} >
             <Div>
-                <p>Idade: {age}</p>
+                <p>Idade: {age} ano(s)</p>
                 <p>Raça: {breed}</p>
                 <p>Nome: {name}</p>
                 <p>Espécie: {species}</p>
