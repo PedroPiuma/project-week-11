@@ -5,6 +5,4 @@ export const listPets = () => client.get("pets/06s2rm4");
 
 export const postPets = (data) => client.post("pets/06s2rm4", data)
 
-export const removePets = (data) => {
-    client.delete(`pets/06s2rm4/${data}`)
-}
+export const removePets = (data) => client.delete(`pets/06s2rm4/${data}`)

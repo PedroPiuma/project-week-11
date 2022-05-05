@@ -19,7 +19,7 @@ function ProtectedPage() {
     };
     request();
   }, [newList]);
-
+  console.log(pets)
   const post = async (submitData) => {
     try {
       submitData.preventDefault()
